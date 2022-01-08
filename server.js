@@ -21,11 +21,11 @@ app.use(bodyParser.json());
 
 const Pool = require("pg").Pool;
 const connection = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "bd_patitas",
-  password: "1655597",
-  port: 5433
+  user: "zdyhcvwqyathgx",
+  host: "ec2-54-211-74-66.compute-1.amazonaws.com",
+  database: "d1hnq79hlil831",
+  password: "8c719c5fc9f935623ffa1989146fbe5de6ff14d0b5eabaaae9f9986688c6f1de",
+  port: 5432
 });
 
 app.listen(PORT, () => console.log(`servidor corriendo en puerto ${PORT}`));
